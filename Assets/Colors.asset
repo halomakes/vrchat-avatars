@@ -43,3 +43,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Red
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Plushie
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

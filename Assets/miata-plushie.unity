@@ -788,6 +788,10 @@ MonoBehaviour:
     name: anim_white
   - hash: -1865962007
     name: anim_red
+  - hash: -1999105207
+    name: anim_pink
+  - hash: -376336481
+    name: anim_black
   - hash: 294873794
     name: anim_blue
   - hash: 1769185160
@@ -796,6 +800,10 @@ MonoBehaviour:
     name: anim_red
   - hash: -81347571
     name: anim_white
+  - hash: -1547251296
+    name: anim_pink
+  - hash: 812436353
+    name: anim_black
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -910,6 +918,19 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &1303619535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303619530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1001 &1411766801
 PrefabInstance:
   m_ObjectHideFlags: 0

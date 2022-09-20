@@ -53,3 +53,23 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Amgry Pink
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Plushie
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Black
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Plushie
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 41bc35acde4c80947ae863052f9846c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 41bc35acde4c80947ae863052f9846c6,
         type: 3}
@@ -202,7 +202,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3119a11588855e94680eb39933cd30ed, type: 2}
+      objectReference: {fileID: 2100000, guid: b0fc10195f031124b831f78f45d5291b, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 41bc35acde4c80947ae863052f9846c6,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: ad01588457d850147b13a1f3886a5fda, type: 2}
     - target: {fileID: 919132149155446097, guid: 41bc35acde4c80947ae863052f9846c6,
         type: 3}
       propertyPath: m_Name
@@ -217,6 +222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 41bc35acde4c80947ae863052f9846c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41bc35acde4c80947ae863052f9846c6, type: 3}
@@ -236,8 +246,6 @@ GameObject:
   m_Component:
   - component: {fileID: 690573312}
   - component: {fileID: 690573315}
-  - component: {fileID: 690573314}
-  - component: {fileID: 690573313}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -259,58 +267,6 @@ Transform:
   m_Father: {fileID: 1544418707}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &690573313
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690573311}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &690573314
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690573311}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!33 &690573315
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -487,13 +443,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261704495}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 1, z: -2.68}
+  m_LocalRotation: {x: -0, y: 0.99121577, z: -0, w: 0.13225462}
+  m_LocalPosition: {x: -0.098, y: 0.08, z: 0.424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 164.8, z: 0}
 --- !u!1001 &1303619529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -748,9 +704,25 @@ MonoBehaviour:
     isDefault: 1
   AnimationPreset: {fileID: 0}
   animationHashSet:
+  - hash: -1975697670
+    name: quest_hue_0
+  - hash: -46526868
+    name: quest_hue_1
+  - hash: 1681088470
+    name: quest_hue_2
+  - hash: 322203456
+    name: quest_hue_3
+  - hash: -1924072733
+    name: quest_hue_4
+  - hash: -94909835
+    name: quest_hue_5
+  - hash: 1603441126
+    name: quest_sat_0
   - hash: 1743622306
     name: Blend Tree
   - hash: -1052876031
+    name: Blend Tree
+  - hash: 1834210454
     name: Blend Tree
   autoFootsteps: 1
   autoLocomotion: 1

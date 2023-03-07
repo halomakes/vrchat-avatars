@@ -13,13 +13,25 @@ MonoBehaviour:
   m_Name: VRCExpressionsMenu
   m_EditorClassIdentifier: 
   controls:
-  - name: Plushies
+  - name: Hue
     icon: {fileID: 0}
-    type: 103
+    type: 203
     parameter:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 55ad48e2ae75efc40a43ad0f9ba3adb4, type: 2}
-    subParameters: []
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Hue
+    labels: []
+  - name: Saturation
+    icon: {fileID: 0}
+    type: 203
+    parameter:
+      name: 
+    value: -1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Saturation
     labels: []

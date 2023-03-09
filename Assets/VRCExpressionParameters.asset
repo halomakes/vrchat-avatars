@@ -15,9 +15,9 @@ MonoBehaviour:
   parameters:
   - name: Hue
     valueType: 1
-    saved: 0
+    saved: 1
     defaultValue: 0
   - name: Saturation
     valueType: 1
-    saved: 0
+    saved: 1
     defaultValue: -1
